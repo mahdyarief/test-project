@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_main_samples",
+  "info": {
+    "displayName": "Sample",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

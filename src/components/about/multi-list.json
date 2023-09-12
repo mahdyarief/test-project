@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_multi_lists",
+  "info": {
+    "displayName": "Multi List",
+    "icon": "paperPlane"
+  },
+  "options": {},
+  "attributes": {
+    "RichText": {
+      "type": "richtext"
+    },
+    "Text1": {
+      "type": "string"
+    }
+  }
+}
