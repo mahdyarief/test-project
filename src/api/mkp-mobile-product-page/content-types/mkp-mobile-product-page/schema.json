@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mkp_mobile_product_pages",
+  "info": {
+    "singularName": "mkp-mobile-product-page",
+    "pluralName": "mkp-mobile-product-pages",
+    "displayName": "MKP Mobile - Product Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    },
+    "Section2Title": {
+      "type": "string"
+    },
+    "Section2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.title-desc"
+    },
+    "Section3Title": {
+      "type": "string"
+    },
+    "ImageGallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_mobile_issuers",
+  "info": {
+    "singularName": "mkp-mobile-issuer",
+    "pluralName": "mkp-mobile-issuers",
+    "displayName": "MKP Mobile - Issuer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.image-title"
+    }
+  }
+}

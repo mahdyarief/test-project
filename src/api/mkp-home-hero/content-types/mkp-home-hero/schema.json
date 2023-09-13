@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_home_heroes",
+  "info": {
+    "singularName": "mkp-home-hero",
+    "pluralName": "mkp-home-heroes",
+    "displayName": "MKP Home - Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title1": {
+      "type": "string"
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Title3": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text",
+      "maxLength": 100
+    },
+    "APILabel1": {
+      "type": "string"
+    },
+    "APILabel2": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

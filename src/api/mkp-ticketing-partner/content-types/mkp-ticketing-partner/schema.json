@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_ticketing_partners",
+  "info": {
+    "singularName": "mkp-ticketing-partner",
+    "pluralName": "mkp-ticketing-partners",
+    "displayName": "MKP Ticketing - Partner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "ImagePartner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.simple-image"
+    }
+  }
+}

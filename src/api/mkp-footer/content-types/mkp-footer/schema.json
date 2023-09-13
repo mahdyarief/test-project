@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_footers",
+  "info": {
+    "singularName": "mkp-footer",
+    "pluralName": "mkp-footers",
+    "displayName": "MKP Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section2Title": {
+      "type": "string"
+    },
+    "Section2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.text-url"
+    },
+    "Section3Title": {
+      "type": "string"
+    },
+    "Section3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.social-media"
+    },
+    "Copyright": {
+      "type": "string"
+    },
+    "Section1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mkp_ticketing_use_case_pages",
+  "info": {
+    "singularName": "mkp-ticketing-use-case-page",
+    "pluralName": "mkp-ticketing-use-case-pages",
+    "displayName": "MKP Ticketing - Use Case Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    },
+    "ContentImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.title-desc"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "mkp_ticketing_use_case_pages"
+    }
+  }
+}

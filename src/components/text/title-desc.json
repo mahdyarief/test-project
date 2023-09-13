@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_title_descs",
+  "info": {
+    "displayName": "Title Desc"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

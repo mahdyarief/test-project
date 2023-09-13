@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_mobile_products",
+  "info": {
+    "singularName": "mkp-mobile-product",
+    "pluralName": "mkp-mobile-products",
+    "displayName": "MKP Mobile - Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    }
+  }
+}

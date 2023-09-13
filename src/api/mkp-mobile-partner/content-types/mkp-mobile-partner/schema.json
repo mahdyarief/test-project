@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_mobile_partners",
+  "info": {
+    "singularName": "mkp-mobile-partner",
+    "pluralName": "mkp-mobile-partners",
+    "displayName": "MKP Mobile - Partner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "ImagePartner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.simple-image"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_list_text_urls",
+  "info": {
+    "displayName": "TextURL"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

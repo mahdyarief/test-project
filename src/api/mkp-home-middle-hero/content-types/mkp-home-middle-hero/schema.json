@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_home_middle_heroes",
+  "info": {
+    "singularName": "mkp-home-middle-hero",
+    "pluralName": "mkp-home-middle-heroes",
+    "displayName": "MKP Home - Middle Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LabelPageDetail": {
+      "type": "string"
+    },
+    "PageDetailURL": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    }
+  }
+}

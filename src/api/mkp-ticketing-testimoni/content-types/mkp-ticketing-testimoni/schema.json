@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_ticketing_testimonis",
+  "info": {
+    "singularName": "mkp-ticketing-testimoni",
+    "pluralName": "mkp-ticketing-testimonis",
+    "displayName": "MKP Ticketing - Testimoni"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    },
+    "TestimonialItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.testimonials"
+    }
+  }
+}

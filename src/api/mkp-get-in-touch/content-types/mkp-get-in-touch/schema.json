@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_get_in_touches",
+  "info": {
+    "singularName": "mkp-get-in-touch",
+    "pluralName": "mkp-get-in-touches",
+    "displayName": "MKP Get In Touch",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    }
+  }
+}

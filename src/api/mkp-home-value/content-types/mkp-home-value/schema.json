@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_home_values",
+  "info": {
+    "singularName": "mkp-home-value",
+    "pluralName": "mkp-home-values",
+    "displayName": "MKP Home - Value"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value1": {
+      "type": "richtext",
+      "maxLength": 70,
+      "required": true
+    },
+    "Value2": {
+      "type": "richtext",
+      "maxLength": 70,
+      "required": true
+    },
+    "Value3": {
+      "type": "richtext",
+      "maxLength": 70,
+      "required": true
+    },
+    "Value4": {
+      "type": "richtext",
+      "maxLength": 70,
+      "required": true
+    },
+    "Value5": {
+      "type": "richtext",
+      "maxLength": 70,
+      "required": true
+    },
+    "Value6": {
+      "type": "richtext",
+      "maxLength": 70,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "mkp_ticketing_use_case_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mkp-ticketing-use-case-page.mkp-ticketing-use-case-page",
+      "mappedBy": "category"
+    },
+    "mkp_mobile_use_case_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mkp-mobile-use-case-page.mkp-mobile-use-case-page",
+      "mappedBy": "category"
+    }
+  }
+}

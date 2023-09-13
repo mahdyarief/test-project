@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interested_lists",
+  "info": {
+    "singularName": "interested-list",
+    "pluralName": "interested-lists",
+    "displayName": "InterestedList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

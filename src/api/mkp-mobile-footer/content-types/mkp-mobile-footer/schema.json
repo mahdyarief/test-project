@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_mobile_footers",
+  "info": {
+    "singularName": "mkp-mobile-footer",
+    "pluralName": "mkp-mobile-footers",
+    "displayName": "MKP Mobile - Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.title-desc"
+    },
+    "Section2Title": {
+      "type": "string"
+    },
+    "Section2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.title-desc"
+    },
+    "Section3Title": {
+      "type": "string"
+    },
+    "Section3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.social-media"
+    },
+    "Copyright": {
+      "type": "string"
+    }
+  }
+}

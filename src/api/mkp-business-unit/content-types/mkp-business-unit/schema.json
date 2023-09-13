@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_business_units",
+  "info": {
+    "singularName": "mkp-business-unit",
+    "pluralName": "mkp-business-units",
+    "displayName": "MKP Business Unit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section1": {
+      "displayName": "VerticalImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "image.vertical-image"
+    },
+    "Section2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.vertical-image"
+    },
+    "Section3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.vertical-image"
+    }
+  }
+}

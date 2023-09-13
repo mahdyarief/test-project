@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_ticketing_homes",
+  "info": {
+    "singularName": "mkp-ticketing-home",
+    "pluralName": "mkp-ticketing-homes",
+    "displayName": "MKP Ticketing - Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title1": {
+      "type": "string"
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Title3": {
+      "type": "string"
+    },
+    "AppsPreview": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_home_media_partners",
+  "info": {
+    "singularName": "mkp-home-media-partner",
+    "pluralName": "mkp-home-media-partners",
+    "displayName": "MKP Home - Media Partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "MediaImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.simple-image"
+    }
+  }
+}

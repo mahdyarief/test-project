@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "mkp_ticketing_media_partners",
+  "info": {
+    "singularName": "mkp-ticketing-media-partner",
+    "pluralName": "mkp-ticketing-media-partners",
+    "displayName": "MKP Ticketing - Media Partner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "ImageMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.simple-image"
+    }
+  }
+}

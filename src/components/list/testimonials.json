@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_list_testimonials",
+  "info": {
+    "displayName": "Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "FeedBack": {
+      "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "text"
+    }
+  }
+}
